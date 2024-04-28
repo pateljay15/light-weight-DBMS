@@ -1,0 +1,27 @@
+Data,Query,User Info,Date
+(1;jay),insert into student values (1;jay);,jay,Sat Feb 24 22:50:50 AST 2024
+(2;patel),insert into student values (2;patel);,jay,Sat Feb 24 22:51:09 AST 2024
+(1;jay;706 st),insert into student values (1;jay;706 st);,jay,Sat Feb 24 22:52:23 AST 2024
+(2;patel;703 st),insert into student values (2;patel;703 st);,jay,Sat Feb 24 22:52:49 AST 2024
+no data,select * from student;,jay,Sat Feb 24 22:52:59 AST 2024
+no data,select name;address from student;,jay,Sat Feb 24 22:53:34 AST 2024
+(1;jay j;706 st),insert into student values (1;jay j;706 st);,jay,Sat Feb 24 22:55:28 AST 2024
+(2;patel;702 st),insert into student values (2;patel;702 st);,jay,Sat Feb 24 22:55:40 AST 2024
+no data,select * from student;,jhon,Sat Feb 24 22:55:54 AST 2024
+no data,select name;address from student;,jhon,Sat Feb 24 22:57:26 AST 2024
+(1;jay j;706 st),insert into student values (1;jay j;706 st);,jhon,Sat Feb 24 22:59:54 AST 2024
+(2;patel;702 st),insert into student values (2;patel;702 st);,jhon,Sat Feb 24 23:00:12 AST 2024
+no data,select * from student;,jhon,Sat Feb 24 23:00:23 AST 2024
+no data,select name;address from student;,jhon,Sat Feb 24 23:00:43 AST 2024
+no data,select * from student where id=1;,jhon,Sat Feb 24 23:01:33 AST 2024
+no data,begin transaction,jagdish,Sat Feb 24 23:26:49 AST 2024
+(3;jagdish;bansri),insert into student values (3;jagdish;bansri);,jagdish,Sat Feb 24 23:26:49 AST 2024
+no data,select * from student;,jagdish,Sat Feb 24 23:26:49 AST 2024
+(4;alpa;bansri),insert into student values (4;alpa;bansri);,jagdish,Sat Feb 24 23:26:49 AST 2024
+no data,commit,jagdish,Sat Feb 24 23:26:49 AST 2024
+no data,begin transaction,jagdish,Sat Feb 24 23:31:26 AST 2024
+(3;jagdish;bansri),insert into student values (3;jagdish;bansri);,jagdish,Sat Feb 24 23:31:26 AST 2024
+no data,select * from student;,jagdish,Sat Feb 24 23:31:26 AST 2024
+(6;alop;gottin st),insert into student values (6;alop;gottin st);,jagdish,Sat Feb 24 23:31:26 AST 2024
+no data,rollback,jagdish,Sat Feb 24 23:31:26 AST 2024
+no data,select * from student;,jay,Mon Feb 26 10:01:37 AST 2024
